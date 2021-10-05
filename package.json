@@ -1,0 +1,22 @@
+{
+  "name": "upload-to-cloudinarry-with-node",
+  "version": "1.0.0",
+  "description": "Uploading Images to Cloudinary\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "ifeoma imoh",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.27.0",
+    "datauri": "^4.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
